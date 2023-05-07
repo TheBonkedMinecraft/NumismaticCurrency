@@ -41,8 +41,6 @@ dependencies {
     shadow(rootProject)*/
 
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-
-    // Fabric API. This is technically optional, but you probably want it anyway.
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
     modApi(files("lib/OctoEconomyApi-1.19.2-FABRIC-1.1.0.jar"))
     include(files("lib/OctoEconomyApi-1.19.2-FABRIC-1.1.0.jar"))
